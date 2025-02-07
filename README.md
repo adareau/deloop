@@ -28,3 +28,4 @@ $> deloop /path/to/file_a.wav /path/to/file_b.wav -o /path/to/output_file.wav
 ## References used to build this package
 
 https://packaging.python.org/en/latest/guides/creating-command-line-tools/
+https://packaging.python.org/en/latest/tutorials/packaging-projects/
