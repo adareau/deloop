@@ -14,6 +14,8 @@ Comments: a command line tool to deloop samples generated with the SP-404 looper
 import sys
 import wave
 import array
+import typer
+from typing_extensions import Annotated
 
 # %% Help string
 
