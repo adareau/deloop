@@ -1,0 +1,15 @@
+[project]
+name = "deloop"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Alexandre Dareau",email = "alexandre.dareau@protonmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "typer>=0.15.1",
+]
+
+[project.scripts]
+deloop = "deloop.cli:app"
