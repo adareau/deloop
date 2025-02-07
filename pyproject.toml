@@ -13,8 +13,7 @@ maintainers = [
   {name = "Alexandre Dareau", email = "alexandre.dareau@protonmail.com"}
 ]
 readme = "README.md"
-license = "GPL-3.0-or-later"
-license-files = ["LICENSE",]
+license = { text = "GPL-3.0-or-later"}
 keywords = ["looper", "music", "SP-404", "wav"]
 
 classifiers = [
