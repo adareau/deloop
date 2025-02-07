@@ -37,7 +37,7 @@ def main():
     if len(sys.argv) != 4:
         print(HELP_STRING)
         return
-    
+
     # get arguments
     file_A = sys.argv[1]
     file_B = sys.argv[2]
@@ -66,7 +66,6 @@ def main():
     with wave.open(file_out, "wb") as output:
         output.setparams(params)
         output.writeframes(sum_array.tobytes())
-
 
 
 # %% Execute
