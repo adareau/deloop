@@ -30,3 +30,9 @@ $> deloop /path/to/file_a.wav /path/to/file_b.wav -o /path/to/output_file.wav
 https://packaging.python.org/en/latest/guides/creating-command-line-tools/
 https://packaging.python.org/en/latest/tutorials/packaging-projects/
 https://packaging.python.org/en/latest/guides/distributing-packages-using-setuptools
+
+# Note for packaging testing
+
+```bash
+$> pip install --index-url https://test.pypi.org/simple/ --extra-index-url https://pypi.org/simple deloop
+```
